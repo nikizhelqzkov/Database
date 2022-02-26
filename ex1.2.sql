@@ -1,0 +1,4 @@
+use movies
+SELECT BIRTHDATE
+FROM MOVIESTAR
+WHERE NAME='Sandra Bullock';

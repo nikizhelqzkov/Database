@@ -1,0 +1,5 @@
+use movies;
+SELECT *
+FROM MOVIESTAR
+WHERE GENDER='M'
+OR ADDRESS LIKE '%Malibu%';
