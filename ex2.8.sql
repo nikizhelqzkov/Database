@@ -1,0 +1,5 @@
+use ships;
+select NAME
+from SHIPS
+join CLASSES on CLASSES.CLASS = SHIPS.CLASS
+where DISPLACEMENT> '35000'
