@@ -1,0 +1,6 @@
+use movies;
+
+select MOVIETITLE ,MOVIEYEAR
+from STARSIN
+join MOVIESTAR on name=STARNAME
+where BIRTHDATE > '1970-01-01' and BIRTHDATE < '1980-07-01'

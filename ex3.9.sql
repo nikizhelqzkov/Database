@@ -5,4 +5,4 @@ from ships
 where class in 
  (select CLASS 
   from CLASSES
-  where NUMGUNS=12)
+  where bore=16)
